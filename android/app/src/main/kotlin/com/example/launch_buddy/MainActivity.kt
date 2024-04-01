@@ -1,4 +1,4 @@
-package com.example.launch_buddy
+package xyz.archyuniq.lunchbuddy
 
 import io.flutter.embedding.android.FlutterActivity
 

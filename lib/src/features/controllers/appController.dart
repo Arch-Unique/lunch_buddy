@@ -55,7 +55,7 @@ class AppController extends GetxController {
 
   Future submitResult(List<String> s) async {
     await dioService.post("$BASE_URL/votesessions", data: {
-      "user": user,
+      "user": user.value,
       "votes": s.join(","),
     });
   }
